@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Bone - Contacto</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <header>
+        <h1 class="nombre-sitio text-center">Black<span>Bone</span></h1>
+    </header>
+    <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+    <main class="contenido-principal contenedor">
+        <h2 class="text-center">Contacto</h2>
+        <form class="formulario">
+            <fieldset>
+                <legend>Tus Datos</legend>
+                <div class="campo">
+                    <label for="nombre">Nombre: </label>
+                    <input id="nombre" type="text" placeholder="Coloca tu Nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="asunto">Asunto: </label>
+                    <input id="asunto" type="text" placeholder="Tu Asunto" required>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail: </label>
+                    <input id="email" type="email" placeholder="Tu E-mail" required>
+                </div>
+                <div class="campo">
+                    <label for="tel">Teleforno: </label>
+                    <input id="tel" type="tel" placeholder="Tu Telefono" required>
+                </div>
+                <div class="campo">
+                    <label for="message">Mensaje: </label>
+                    <textarea id="message" rows="10" cols="50"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>País</legend>
+                <div class="campo">
+                    <label for="pais">País: </label>
+                    <select id="pais">
+                        <option value="none" selected disabled>-- Selccione --</option>
+                        <option value="MX">México</option>
+                        <option value="PR">Perú</option>
+                        <option value="CO">Colombia</option>
+                        <option value="AR">Argentina</option>
+                        <option value="ES">España</option>
+                        <option value="CL">Chile</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Información Extra</legend>
+                <div class="campo">
+                    <label for="cliente">Cliente: </label>
+                    <input id="cliente" type="radio" name="tipo" value="cliente">
+                </div>
+                <div class="campo">
+                    <label for="provedor">Provedor: </label>
+                    <input id="provedor" type="radio" name="tipo" value="provedor">
+                </div>
+                <div class="campo">
+                    <label for="categoria">Categoría de Interés:</label>
+                    <input list="categorias" name="categorias">
+                    <datalist id="categorias">
+                        <option value="Cocina"/>
+                        <option value="Exterior"/>
+                        <option value="Recamaras"/>
+                        <option value="Oficina"/>
+                        <option value="Televisión"/>
+                    </datalist>
+                </div>
+            </fieldset>
+            <input class="btn" type="submit" value="Enviar Formulario">
+        </form>
+    </main>
+    <footer  class="site-footer">
+        <div class="contenedor grid-footer">
+            <div>
+                <h3>Navegacion</h3>
+                <nav class="navegacion-footer">
+                    <a href="index.html">Inicio</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="tienda.html">Tienda</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="galeria.html">Galeria</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+            <div>
+                <h3>Contacto</h3>
+                <nav class="navegacion-footer">
+                    <a href="contacto.html">Contacto</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="nosotros.html">Nosotros</a>
+                </nav>
+            </div>
+            <div>
+                <h3>Social</h3>
+                <nav class="navegacion-footer">
+                    <a href="tienda.html">Tienda</a>
+                    <a href="galeria.html">Galeria</a>
+                </nav>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>
