@@ -28,7 +28,7 @@ Sitio web basico de ejemplo para practicar HTML y CSS, la tematica del sitio es 
 
 (Aqui insetar enlace del sitio en cuestion)
 
-[![Galeria de fotos Black Bone](https://i.postimg.cc/Y2xkFHxs/Black-Bone-Galeria-1.gif)](https://postimg.cc/dDDzMgp2)
+[![Pagina-principal.png](https://i.postimg.cc/SQVHL0ZT/Pagina-principal.png)](https://postimg.cc/JtDTmFCZ)
 
 ## Authors
 
