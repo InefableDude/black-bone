@@ -3,9 +3,6 @@
 
 Sitio web basico de ejemplo para practicar HTML y CSS, la tematica del sitio es una tienda de ropa estilo urban / gothic.
 
-
-
-
 ## Tech Stack
 
 **Cliente:** HTML, CSS
@@ -26,7 +23,9 @@ Sitio web basico de ejemplo para practicar HTML y CSS, la tematica del sitio es 
 
 ## Demo
 
-(Aqui insetar enlace del sitio en cuestion)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e276db93-d94c-495b-93b2-89593d481645/deploy-status)](https://app.netlify.com/sites/blackbone-html-css/deploys)
+
+https://blackbone-html-css.netlify.app/
 
 [![Pagina-principal.png](https://i.postimg.cc/SQVHL0ZT/Pagina-principal.png)](https://postimg.cc/JtDTmFCZ)
 
